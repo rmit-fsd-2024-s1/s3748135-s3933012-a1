@@ -1,0 +1,218 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+form{
+  display: block !important;
+}
+.form_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ant-form-item-control-input{
+  margin-bottom: 1vw;
+}
+.login-form-button{
+  display: block;
+  width: 20vw;
+  margin-top: 1vw;
+}
+.register-form-button{
+  display: block;
+  width: 20vw;
+}
+.icon_title{
+  margin-left: 1vw;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.episodes {
+  display: flex;
+  flex-direction: column;
+}
+
+.episode {
+  min-width: max-content;
+  margin-bottom: .8rem;
+  padding: .8rem 1rem;
+  border-radius: 10px;
+  border: 0;
+  background: #191414;
+  color: #fff;
+  cursor: pointer;
+}
+
+.episode:hover {
+  background: #1Db954;
+}
+.search_box{
+  padding:2vw;
+  text-align: center;
+}
+.search_box label{
+  margin-right: 1vw;
+}
+.search_box .button_search{
+  margin-left: 1vw;
+}
+.input_search{
+  width: 30%;
+  margin-right: 1vw;
+}
+iframe{
+  margin-top: 20vw;
+}
+.music_box{
+  width: 65vw;
+  margin: 0vw 2vw;
+  float: left;
+}
+.love_list{
+  float: right;
+  width: 25vw;
+  margin-left: 3vw;
+  padding: 1vw 2vw;
+  box-sizing: border-box;
+  background: aliceblue;
+  border-radius: 1rem;
+  margin-right: 1vw;
+}
+
+.home_body{
+  text-align: center;
+}
+.home_body img{
+  width:37%
+}
+.movie_box,.details_box{
+  margin-bottom: 20vw;
+  width: 97vw;
+}
+.footer_box{
+  text-align: center;
+  background-color: aliceblue;
+  padding: 1vw;
+  box-sizing: border-box;
+  font-size: smaller;
+}
+.details_box{
+  padding: 2vw;
+  box-sizing: border-box;
+}
+.details_box_content{
+  display: flex;
+}
+.details_box_content .right_box{
+  text-align: right;
+  width: 30%;
+}
+.details_box_content .right_box img{
+  width: 70%;
+}
+
+.Profile_body{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile_data{
+  width:70vw;
+  text-align: center;
+}
+.profile_data p{
+
+}
+.profile_data p label{
+  font-weight: bold;
+  margin-right: 1vw;
+}
+.profile_data p span{
+
+}
+.add_body{
+  width: 30vw;
+  margin-left: 35vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  border: 2px solid #e8e8e8;
+  border-radius: 1rem;
+  margin-bottom: 4vw;
+}
+.edit-profile{
+  text-align: left;
+  border: 3px solid #b1b1b1;
+  border-radius: 1rem;
+  padding: 1vw;
+  margin-bottom: 3vh;
+}
+.edit-profile .reset_button{
+  background-color: red;
+}
+.edit-profile .reset_button:hover{
+  background-color: rgb(119, 9, 9);
+}
+.edit-profile Button{
+  width: 100%;
+  margin-bottom: 2vh;
+}
+
+.cart_buuton_box{
+  position: fixed;
+  bottom: 8vh;
+  left: 2vw;
+  width: 40px;
+  background: #39c797;
+  color: white;
+  text-align: center;
+  padding: 1vw;
+  border-radius: 50%;
+  height: 40px;
+  line-height: 3;
+  cursor: pointer;
+}
+.cart_buuton_box span{
+  background: red;
+  position: relative;
+  top: -7vw;
+  right: -2vw;
+  padding: 5px;
+  border-radius: 50%;
+  height: 20px;
+  display: inline-block;
+  width: 20px;
+  line-height: 20px;
+  font-size: smaller;
+}
+.buy_button_box{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 94%;
+  background: aliceblue;
+  left: 0;
+  padding: 0% 3%;
+}
+.buy_button_box p{
+  width: 50%;
+  padding: 0;
+}
+.buy_button_box p:nth-child(2){
+  text-align: right;
+}
+.buy_button_box p span,.buy_button_box_2 p span{
+  font-size: xx-large;
+  color: red;
+}
+.buy_button_box p button{
+  height: 100%;
+  background: aqua;
+  color: white;
+  border: none;
+  width:50%;
+  cursor: pointer;
+}
